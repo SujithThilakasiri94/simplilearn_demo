@@ -19,6 +19,6 @@ git push -u origin master
 git config --global user.name "yourName"
 git config --global user.email "emailAddress"
 git config --list //view configurations
-git log //see commit history
+git log //see commit history				*git log --pretty-oneline
 git diff
 git branch first_branch
