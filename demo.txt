@@ -6,16 +6,19 @@ mkdir
 cd "path"
 git --version
 git config --help
+git help
 
 git init
 git status
 git add "file.format" //track the file			*git add .//adds all
 git commit -m "your message"
 git remote add origin "github repo link"
-git push origin master
+git remote -v //check connection
+git push -u origin master
 
 git config --global user.name "yourName"
 git config --global user.email "emailAddress"
 git config --list //view configurations
+git log //see commit history
 git diff
 git branch first_branch
